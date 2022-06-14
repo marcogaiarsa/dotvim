@@ -1,4 +1,5 @@
 " show line numbers
+
 set nu
 
 " self-explanatory
@@ -20,3 +21,7 @@ set nojoinspaces
 
 " display number of selected chars, lines, or size of blocks.
 set showcmd
+
+" configurations for pathogen usage (plugin manager)
+call pathogen#infect()
+call pathogen#helptags()
