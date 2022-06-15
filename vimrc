@@ -25,3 +25,7 @@ set showcmd
 " configurations for pathogen usage (plugin manager)
 call pathogen#infect()
 call pathogen#helptags()
+
+" Commands for latex preview
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = "evince"
